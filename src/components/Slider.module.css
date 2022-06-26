@@ -1,0 +1,31 @@
+.imgDiv{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.imgDiv img{
+    width: 800px;
+}
+
+.imgDiv img:hover{
+    background: #CDD6DB;
+    opacity: 0.8;
+}
+
+.imgDiv h2{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    background: rgba(255,255,255, 0.5);
+}
+
+.imgDiv span{
+    text-shadow: 1px 1px 1px #000;
+    color: rgb(255, 255, 255);
+}
+
+.imgDiv button {	
+    height: 35px;
+    width: 35px;
+}
