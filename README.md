@@ -10,11 +10,11 @@ The remaining parameters are optional.
 
 
 Example: 
-<code>  &ltSlider 
+<code> <Slider 
       slides={slides} 
       pagination={true}
       auto={true}
       delay={1500}
       loop={true}
       stopMouseHover={true}
-    /&gt </code> 
+    /> </code> 
