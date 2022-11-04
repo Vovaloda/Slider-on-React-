@@ -7,3 +7,14 @@ The remaining parameters are optional.
 "delay" - setting the interval for the timer.
 "loop" - the ability to loop the playback of slides using the left or right buttons in the pagination.
 "stopMouseHover" - disabling the timer when hovering the mouse over the image.
+
+
+Example: 
+<code>  &ltSlider 
+      slides={slides} 
+      pagination={true}
+      auto={true}
+      delay={1500}
+      loop={true}
+      stopMouseHover={true}
+    /&gt </code> 
